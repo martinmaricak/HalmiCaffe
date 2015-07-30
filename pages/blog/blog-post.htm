@@ -1,0 +1,50 @@
+title = "Blog Post"
+url = "/blog/:slug"
+layout = "halmi"
+is_hidden = "0"
+meta_title = "HalmiCaffe :: Článok"
+meta_description = "hahahaa"
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog/category-page"
+
+[mailSignup]
+list = "5603fd16f5"
+==
+{% put head %}
+    <link rel="stylesheet" href="{{ 'assets/css_blog.css'|theme }}" />
+{% endput %}
+
+{% put socials %}
+    <meta property="og:title" content="{{ post.title }}" />
+    <meta property="og:description" content="{{ post.excerpt }}" />
+    <meta property="og:image" content="{{'home'|page}}/{{ post.featured_images().first.path }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ url_current() }}" />
+
+
+    <meta name="twitter:title" content="{{ post.title }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="{{ url_current() }}" />
+    <meta name="twitter:description" content="{{ post.excerpt }}" />
+{% endput %}
+
+
+{% put description %}
+    <title>HalmiCaffe :: {{ post.title }}</title>
+    <meta name="description" content="{{ post.excerpt }}" />
+{% endput %}
+
+{% component 'blogPost' %}
+
+<div class="signup-newsletter">
+  <strong class="subscribe-title">— Pridaj sa do nášho newslettera —</strong>
+  {% component 'mailSignup' %}
+</div>
+
+
+{% put foot %}
+    {% framework %}
+    {% framework extras %}
+{% endput %}

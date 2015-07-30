@@ -1,0 +1,16 @@
+
+<div id="{{ __SELF__.id }}container" class="subscribe-container">
+    <form
+        data-request="{{ __SELF__ }}::onSignup"
+        data-request-update="'{{ __SELF__ }}::result': '#{{ __SELF__.id }}container'">
+
+        <div class="input-group">
+            <input name="email" type="text" class="form-control" placeholder="tvoj@email.sk"/>
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">Pridaj sa</button>
+            </span>
+        </div>
+    </form>
+
+    <span class="subscribe-help">Samá káva, žiadny spam! :)</span>
+</div>

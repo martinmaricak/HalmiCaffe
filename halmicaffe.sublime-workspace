@@ -1,0 +1,1023 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hidd",
+				"hiddenContent"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"backgron",
+				"background-size"
+			],
+			[
+				"mh",
+				"max-height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"wrp",
+				"Word Wrap: Toggle"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"SIDEBAR",
+				"View: Toggle Side Bar"
+			],
+			[
+				"loremi",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"preference",
+				"Preferences: Settings - User"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - Default"
+			],
+			[
+				"removepack",
+				"Package Control: Remove Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"latextools dele",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"browse packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"projec",
+				"Project: Close"
+			],
+			[
+				"latextoo",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sideba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"latexdele",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"latextool ",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"latextool",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"build ",
+				"Build With: LaTeX"
+			],
+			[
+				"preferences",
+				"Preferences: Settings - Default"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"latextools",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"build la",
+				"Build With: LaTeX"
+			],
+			[
+				"bros",
+				"Preferences: Browse Packages"
+			],
+			[
+				"build late",
+				"Build With: LaTeX"
+			],
+			[
+				"",
+				"Build With: LaTeX"
+			],
+			[
+				"latex",
+				"Build With: LaTeX"
+			],
+			[
+				"latextools recon",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"latex ",
+				"Build With: LaTeX"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"consol",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 583.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/"
+	],
+	"file_history":
+	[
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/theme.yaml",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/assets/css_blog.css",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/layouts/halmi.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/blogPost/default.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/halmicaffe.sublime-project",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/blogPosts/default.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/blogPosts/blog-post.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/pages/blog/blog.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/searchResult/default.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/categoryPage/default.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/carusel-partners.htm",
+		"/Users/martin/work/www/halmi/plugins/rainlab/blog/components/Posts.php",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/pages/blog/category-page.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/pages/blog/search-results.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/navigation.htm",
+		"/Users/martin/work/www/halmi/plugins/rainlab/blog/models/Category.php",
+		"/Users/martin/work/www/halmi/modules/cms/classes/Controller.php",
+		"/Users/martin/work/www/halmi/plugins/rainlab/blog/controllers/Posts.php",
+		"/Users/martin/work/www/halmi/modules/backend/Classes/Controller.php",
+		"/Users/martin/work/www/halmi/plugins/rainlab/blog/components/Categories.php",
+		"/Users/martin/work/www/halmi/plugins/rainlab/blog/controllers/categories.php",
+		"/Users/martin/work/www/halmi/plugins/rainlab/blog/models/category/fields.yaml",
+		"/Users/martin/work/www/halmi/plugins/rainlab/blog/models/category/columns.yaml",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/searchForm/default.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/pages/blog/blog-post.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/partials/mailSignup/default.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/assets/css_generals.css",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/pages/home-office.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/pages/blog/Blog.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/pages/Blog.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiCaffe/pages/home.htm",
+		"/Users/martin/work/www/halmi/.htaccess",
+		"/Users/martin/work/www/portfolio/maricak.sublime-project",
+		"/Users/martin/work/www/halmicaffe/themes/HalmiCaffe/pages/blog-post.htm",
+		"/Users/martin/work/www/portfolio/index.html",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/private/etc/hosts",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/martin/work/www/portfolio/assets/scss/main.scss",
+		"/Users/martin/work/www/portfolio/assets/js/main.js",
+		"/Users/martin/work/www/portfolio/bower.json",
+		"/Users/martin/work/www/portfolio/gulpfile.js",
+		"/Users/martin/work/www/portfolio/humans.txt",
+		"/Users/martin/work/www/portfolio/package.json",
+		"/Users/martin/work/www/portfolio/robots.txt",
+		"/Users/martin/work/www/maricak/gulpfile.js",
+		"/Users/martin/Desktop/portfolio-copywrite",
+		"/Users/martin/work/www/maricak/assets/css/main.css",
+		"/Users/martin/work/www/maricak/assets/js/main.js",
+		"/Users/martin/work/www/maricak/assets/js/build/main.js",
+		"/Users/martin/work/www/maricak/assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss",
+		"/Users/martin/work/www/maricak/index.html",
+		"/Users/martin/work/www/maricak/assets/scss/main.scss",
+		"/Users/martin/work/www/maricak/assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss",
+		"/Users/martin/work/www/maricak/assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss",
+		"/Users/martin/work/www/maricak/node_modules/gulp-less/test/fixtures/mixins.less",
+		"/private/var/folders/6b/p7mf31gs3s1_stfld3smy6280000gn/T/9deae946-4ee5-4619-b975-5e09592be89b/public_html/config/app.php",
+		"/Users/martin/work/www/maricak/assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss",
+		"/Users/martin/work/www/maricak/assets/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+		"/Users/martin/work/www/maricak/assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss",
+		"/Users/martin/work/www/maricak/assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid.scss",
+		"/Users/martin/work/www/maricak/assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss",
+		"/Users/martin/work/www/maricak/package.json",
+		"/Users/martin/work/www/maricak/bower.json",
+		"/Users/martin/work/www/maricak/assets/bower_components/material-design-lite/gulpfile.js",
+		"/Users/martin/work/www/maricak/assets/bower_components/material-design-lite/package.json",
+		"/Users/martin/work/www/maricak/assets/bower_components/material-design-lite/src/grid/_grid.scss",
+		"/Users/martin/work/www/maricak/assets/js/build/build.json",
+		"/Users/martin/work/www/maricak/assets/scss/_fonts.scss",
+		"/Users/martin/work/www/maricak/.gitignore",
+		"/Users/martin/work/www/maricak/assets/bower_components/material-design-lite/src/_variables.scss",
+		"/Users/martin/work/www/skeleton/website.sublime-project",
+		"/Users/martin/Desktop/portfolio-copy",
+		"/Users/martin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/martin/OneDrive/Documents/dolezite/zoomy",
+		"/Users/martin/Desktop/fonts/fonts.css",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/layouts/halmi.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/assets/css_jobs.css",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/assets/css_mobile.css",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/assets/css_generals.css",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/assets/css_partners.css",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/pages/home.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/pages/jobs.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/partials/jobs/default.htm",
+		"/Users/martin/work/www/halmi/themes/HalmiSpace/partials/partners.htm",
+		"/Users/martin/work/www/skeleton/app/templates/index.latte",
+		"/Users/martin/work/www/skeleton/assets/less/main.less",
+		"/Users/martin/work/www/skeleton/app/content/en.json",
+		"/Users/martin/work/www/skeleton/assets/less/parts/header.less",
+		"/Users/martin/work/www/skeleton/app/content/sk.json",
+		"/Users/martin/work/www/skeleton/.htaccess",
+		"/Users/martin/work/www/skeleton/.bowerrc",
+		"/Users/martin/work/www/skeleton/.gitignore",
+		"/Users/martin/work/www/skeleton/app/config.neon",
+		"/Users/martin/work/www/skeleton/assets/less/elms/btn.less",
+		"/Users/martin/work/www/skeleton/assets/less/general/vars.less",
+		"/Users/martin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/martin/work/www/skeleton/assets/less/general/layout.less",
+		"/Users/martin/work/www/skeleton/assets/less/general/helpers.less",
+		"/Users/martin/work/www/skeleton/assets/less/general/fonts.less",
+		"/Users/martin/work/www/skeleton/app/website.sublime-project",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/literatura.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/jadro-zaloha.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/jadroprace.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/analyza.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/zaver.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/tukedip.tex",
+		"/Users/martin/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/uvod.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/prilohac.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/prilohy.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/prilohab.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/prilohaa.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex-02/formulacia.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex/jadroprace.tex",
+		"/Users/martin/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex/tukedip.tex",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex/tukedip.pdf",
+		"/Users/martin/Dropbox/Skola/diplomka/dp-draft-latex/dp.sublime-project",
+		"/Users/martin/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/martin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/builders/pdfcslatexBuilder.py",
+		"/Users/martin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/builders/simpleBuilder.py",
+		"/Applications/Sublime Text.app/Contents/MacOS/Packages/LaTeX.sublime-package",
+		"/Users/martin/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http://halmicaffe.sk",
+			"<link rel='alternate' type='application/rss+xml' title='RSS' href='http://feeds.feedburner.com/martini'>",
+			" *",
+			"*",
+			";\n",
+			"bel",
+			"title",
+			"homeoffice",
+			"title",
+			"partial",
+			"termín",
+			"h2",
+			"h1",
+			"setUrl",
+			"seturl",
+			"pageurl",
+			"function pageUrl",
+			"pageUrl",
+			"pageurl",
+			"function pageUrl",
+			"function pageurl",
+			"pageurl",
+			"setUrl",
+			"this->url",
+			"category->url",
+			"category.url",
+			"$url",
+			"blogcategory",
+			"loadcategory",
+			"category",
+			"url",
+			"h2",
+			"->",
+			"button",
+			"//",
+			"this.page.title",
+			"halmispace.dev",
+			"virtual",
+			"igrici.dev",
+			"halmicaffe.dev",
+			"halmispace",
+			"dummy-host.example.com",
+			"/halmi",
+			"this",
+			".content",
+			"col-lg-10",
+			"visible",
+			".content",
+			".contact",
+			".content",
+			".btn",
+			"contact-item",
+			"vast",
+			"<img src",
+			"class=\"col-md-4 col-sm-6 work-item",
+			"<a target=\"_blank\"",
+			"active",
+			"active-js",
+			"active",
+			";\n",
+			"active",
+			"http://maricak.sk/assets/img/mm.png",
+			"png",
+			"@madebysource",
+			"mailBtn",
+			"mailButton",
+			"cover",
+			"0.5s",
+			"<div class=\"cover\"></div>",
+			"<a target=\"_blank\" ",
+			"glyphicon-link",
+			"glyphicon",
+			"link",
+			"search",
+			"font-face",
+			"@font-face",
+			"<div class=\"col-md-4 col-sm-6 work-item\">",
+			"<a href=\"#\">",
+			"32px",
+			".section",
+			"<a",
+			"992",
+			"8",
+			"10",
+			"col-md-4",
+			"9",
+			"10",
+			"right",
+			"grid",
+			"right",
+			"bootstrap",
+			"<div>",
+			"row",
+			"html{",
+			"html {",
+			"AUTOPREFIXER_BROWSERS",
+			"prefix",
+			"extend",
+			"geomanist-",
+			"less",
+			"lessFolder",
+			"sassMainFile",
+			"lessMainFile",
+			"sass",
+			"uncss",
+			"$",
+			"scss",
+			"import",
+			"relativesc",
+			"request",
+			"prevkeyfra",
+			"scroll",
+			"neigh",
+			"RM =",
+			"var RM",
+			"neighbour",
+			"Novecentowide",
+			"novocento",
+			".job",
+			"600",
+			"700",
+			"media (max-width: 700px)",
+			"media (max-width: 700px)\ndiv[class=\"partners\"] a {",
+			".jobs",
+			"partners",
+			"\"partners\"",
+			"nápoved",
+			"nápovedy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "halmicaffe.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"blogpostde",
+				"partials/blogPost/default.htm"
+			],
+			[
+				"layou",
+				"layouts/halmi.htm"
+			],
+			[
+				"cssblog",
+				"assets/css_blog.css"
+			],
+			[
+				"partialsblogpost",
+				"partials/blog-post.htm"
+			],
+			[
+				"searchresult",
+				"partials/searchResult/default.htm"
+			],
+			[
+				"blogpostdefaul",
+				"partials/blogPost/default.htm"
+			],
+			[
+				"blogpost",
+				"partials/blogPosts/default.htm"
+			],
+			[
+				"blog",
+				"pages/blog/blog.htm"
+			],
+			[
+				"blogposts",
+				"partials/blogPosts/default.htm"
+			],
+			[
+				"partial",
+				"partials/carusel-partners.htm"
+			],
+			[
+				"category",
+				"partials/categoryPage/default.htm"
+			],
+			[
+				"layout",
+				"layouts/halmi.htm"
+			],
+			[
+				"searchresultdefau",
+				"partials/searchResult/default.htm"
+			],
+			[
+				"searchresults",
+				"pages/blog/search-results.htm"
+			],
+			[
+				"navigat",
+				"partials/navigation.htm"
+			],
+			[
+				"posts",
+				"partials/blogPosts/default.htm"
+			],
+			[
+				"categorypage",
+				"pages/blog/category-page.htm"
+			],
+			[
+				"controllersposts",
+				"blog/controllers/Posts.php"
+			],
+			[
+				"searchre",
+				"pages/blog/search-results.htm"
+			],
+			[
+				"searchform",
+				"partials/searchForm/default.htm"
+			],
+			[
+				"cssgeneral",
+				"assets/css_generals.css"
+			],
+			[
+				"search",
+				"pages/blog/search-results.htm"
+			],
+			[
+				"mailsignup",
+				"partials/mailSignup/default.htm"
+			],
+			[
+				"mailsignu",
+				"partials/mailSignup/default.htm"
+			],
+			[
+				"bloghtm",
+				"pages/blog/blog.htm"
+			],
+			[
+				"blogpo",
+				"partials/blogPosts/default.htm"
+			],
+			[
+				"searchresu",
+				"pages/blog/search-results.htm"
+			],
+			[
+				"categ",
+				"pages/blog/category-page.htm"
+			],
+			[
+				"categor",
+				"pages/blog/category-page.htm"
+			],
+			[
+				"home",
+				"pages/home.htm"
+			],
+			[
+				"indexh",
+				"index.html"
+			],
+			[
+				"main.js",
+				"assets/js/main.js"
+			],
+			[
+				"mainscss",
+				"assets/scss/main.scss"
+			],
+			[
+				"mainjs",
+				"assets/js/main.js"
+			],
+			[
+				"fontsscss",
+				"~/Downloads/webfontkit-20150725-063013/stylesheet.css"
+			],
+			[
+				"buildmainjs",
+				"assets/js/build/main.js"
+			],
+			[
+				"maincss",
+				"assets/css/main.css"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"indexhtml",
+				"index.html"
+			],
+			[
+				"gulpfil",
+				"gulpfile.js"
+			],
+			[
+				"clearfix",
+				"assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss"
+			],
+			[
+				"mixinsscss",
+				"assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss"
+			],
+			[
+				"mixins",
+				"node_modules/gulp-less/test/fixtures/mixins.less"
+			],
+			[
+				"variables",
+				"assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"variablesscss",
+				"assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss"
+			],
+			[
+				"mixinsgrid",
+				"assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid.scss"
+			],
+			[
+				"gridfar",
+				"assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss"
+			],
+			[
+				"bootstrapmixins",
+				"assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss"
+			],
+			[
+				"bootstrapgridcss",
+				"assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss"
+			],
+			[
+				"gulfil",
+				"gulpfile.js"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"materialdesignpackage",
+				"assets/bower_components/material-design-lite/package.json"
+			],
+			[
+				"materialdesigngulpfil",
+				"assets/bower_components/material-design-lite/gulpfile.js"
+			],
+			[
+				"materialdesignlitegulpfil",
+				"assets/bower_components/material-design-lite/gulpfile.js"
+			],
+			[
+				"_grid",
+				"assets/bower_components/material-design-lite/src/grid/_grid.scss"
+			],
+			[
+				"buildjs",
+				"assets/js/build/build.json"
+			],
+			[
+				"jobshtm",
+				"pages/jobs.htm"
+			],
+			[
+				"jobs",
+				"assets/css_jobs.css"
+			],
+			[
+				"cssjob",
+				"assets/css_jobs.css"
+			],
+			[
+				"cssmobil",
+				"assets/css_mobile.css"
+			],
+			[
+				"cssjobs",
+				"assets/css_jobs.css"
+			],
+			[
+				"csspartn",
+				"assets/css_partners.css"
+			],
+			[
+				"pagesjob",
+				"pages/jobs.htm"
+			],
+			[
+				"latte",
+				"Backend/templates/index.latte"
+			],
+			[
+				"enjs",
+				"Backend/content/en.json"
+			],
+			[
+				"skjson",
+				"Backend/content/sk.json"
+			],
+			[
+				"gir",
+				"~/work/www/skeleton/.gitignore"
+			],
+			[
+				"varles",
+				"Frontend/less/general/vars.less"
+			],
+			[
+				"btn",
+				"Frontend/less/elms/btn.less"
+			],
+			[
+				"font",
+				"Frontend/less/general/fonts.less"
+			],
+			[
+				"helpers",
+				"Frontend/less/general/helpers.less"
+			],
+			[
+				"vars",
+				"Frontend/less/general/vars.less"
+			],
+			[
+				"tuked",
+				"~/Dropbox/Skola/diplomka/dp-draft-latex-02/tukedip.tex"
+			],
+			[
+				"tukedi",
+				"tukedip.tex"
+			],
+			[
+				"tuke",
+				"tukedip.tex"
+			],
+			[
+				"ana",
+				"analyza.tex"
+			],
+			[
+				"zave",
+				"zaver.tex"
+			],
+			[
+				"litera",
+				"literatura.tex"
+			],
+			[
+				"anal",
+				"analyza.tex"
+			],
+			[
+				"jadroprace",
+				"jadroprace.tex"
+			],
+			[
+				"analy",
+				"analyza.tex"
+			],
+			[
+				"tukedip",
+				"tukedip.tex"
+			],
+			[
+				"jadropra",
+				"jadroprace.tex"
+			],
+			[
+				"jad",
+				"jadroprace.tex"
+			],
+			[
+				"jadro",
+				"jadroprace.tex"
+			],
+			[
+				"uvod",
+				"uvod.tex"
+			],
+			[
+				"jadr",
+				"jadroprace.tex"
+			],
+			[
+				"t",
+				"tukedip.tex"
+			],
+			[
+				"jadrp",
+				"jadroprace.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"halmicaff",
+				"~/work/www/halmi/themes/HalmiCaffe/halmicaffe.sublime-project"
+			],
+			[
+				"HALMICAFF",
+				"~/work/www/halmi/themes/HalmiCaffe/halmicaffe.sublime-project"
+			],
+			[
+				"halmicaffe",
+				"~/work/www/halmi/themes/HalmiCaffe/halmicaffe.sublime-project"
+			],
+			[
+				"halmi",
+				"~/work/www/halmi/themes/HalmiCaffe/halmicaffe.sublime-project"
+			],
+			[
+				"mari",
+				"~/work/www/maricak/maricak.sublime-workspace"
+			],
+			[
+				"close",
+				"~/Dropbox/Skola/diplomka/Vedecke clanky/clanok/clanok.sublime-project"
+			],
+			[
+				"fin",
+				"~/Dropbox/Skola/diplomka/dp-draft-latex-03/dp-final.sublime-project"
+			],
+			[
+				"emm",
+				"~/work/www/emma_landing/emma_landing.sublime-project"
+			],
+			[
+				"",
+				"~/Dropbox/Skola/diplomka/dp-draft-latex-02/dp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

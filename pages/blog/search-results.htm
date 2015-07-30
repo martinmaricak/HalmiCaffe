@@ -1,0 +1,33 @@
+title = "Search Results"
+url = "/blog/vysledky-vyhladavania/:search"
+layout = "halmi"
+is_hidden = "0"
+meta_title = "HalmiCaffe :: Výsledky vyhľadávania"
+
+[searchResult]
+searchTerm = "{{ :search }}"
+pageNumber = "{{ :page }}"
+postsPerPage = "10"
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category-page"
+postPage = "blog/blog-post"
+
+[mailSignup]
+==
+{% put head %}
+    <link rel="stylesheet" href="{{ 'assets/css_blog.css'|theme }}" />
+{% endput %}
+
+{% component 'searchResult' %}
+
+<div class="signup-newsletter">
+  <strong class="subscribe-title">— Pridaj sa do nášho newslettera —</strong>
+  {% component 'mailSignup' %}
+</div>
+
+
+{% put foot %}
+    {% framework %}
+    {% framework extras %}
+{% endput %}

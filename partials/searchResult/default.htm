@@ -1,0 +1,31 @@
+{% set posts = __SELF__.posts %}
+
+<style>
+    .bordered {
+        display: none;
+    }
+</style>
+
+<h1>Vyhľadávate termín <strong>{{ __SELF__.searchTerm }}</strong></h1>
+    
+    {% if posts.count %}
+    <div id="ho-content" class="clearfix blog-container">
+        <div style="margin: 0 auto; max-width: 500px">
+            <ul class="post-list">
+                {% for post in posts %}
+                <li>
+                    {% partial "blog-post" post=post %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    {% else %}
+    <div id="description" class="no-data">
+        <hr>
+        <span>Je nám ľúto, ale nenašli sme žiadne články obsahujúce výraz "{{ __SELF__.searchTerm }}".</span>
+        <br>
+        <a id="try" class="back-btn" href="{{ 'blog/blog'|page }}">Späť na blog</a>
+    </div>
+    {% endif %}

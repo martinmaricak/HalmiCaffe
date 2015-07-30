@@ -1,0 +1,17 @@
+{% set posts = __SELF__.posts %}
+
+{% if posts.count %}
+<div id="ho-content" class="clearfix blog-container">
+    <div style="margin: 0 auto; max-width: 500px">
+    {% for post in posts %}
+        <ul class="post-list">
+            <li>
+                {% partial "blog-post" post=post %}
+            </li>
+        </ul>
+    {% endfor %}
+    </div>
+</div>
+{% else %}
+    <div class="no-data">{{ noPostsMessage }}</div>
+{% endif %}

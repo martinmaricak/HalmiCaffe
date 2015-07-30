@@ -1,0 +1,70 @@
+==
+{% set post = __SELF__.post %}
+
+<style>
+    html, body {
+        width: auto;
+        height: auto;
+        background: #cca76c
+    }
+
+    .blog-thumb-holder {
+        background-image: url('{{ post.featured_images().first.path }}');
+    }
+
+    .bordered {
+        z-index: 10;
+    }
+</style>
+
+<article>
+<header class="hero-holder">
+  <h1>{{ post.title }}</h1>
+  <hr/>
+  <p id="description">
+  {{ post.excerpt }}
+  </p>
+  <a href="#ho-content" class="scroll" id="try">Čítaj viac...</a>
+</header>
+
+<div id="ho-content" class="clearfix blog-container">
+  <div style="margin: 0 auto; max-width: 650px">
+    <div class="blogdetail__content">
+        {{ post.content_html|raw }}
+    </div>
+
+    <footer class="blogdetail__footer">
+        <div class="blogpost__meta">
+            <span class="author">
+              {% if post.user.avatar.path %}
+                <img class="author__avatar" src="{{ post.user.avatar.path }}" alt="">
+              {% endif %}
+              <span class="author__name">{{ post.user.first_name }} {{ post.user.last_name }}</span>  
+            </span>
+            <time class="blogpost__date" datetime="{{ post.published_at|date('c') }}" class="info">{{ post.published_at|date('d M, Y') }}</time>
+        </div>
+
+          <hr class="blogpost__underline">
+
+          <div class="blogpost__categories">
+          {% for category in post.categories %}
+          <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+          </div>
+
+          <div class="clearfix blogdetail__socials">
+              <div class="fb-share-button blogdetail__facebook blogdetail__social" data-href="{{ url_current() }}" data-layout="box_count"></div>
+
+              <div class="blogdetail__twitter blogdetail__social">
+                  <a href="{{ url_current() }}" data-count="vertical" data-counturl="{{ url_current() 
+                   }}" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              </div>
+
+              <div class="blogdetail__pocket blogdetail__social">
+                  <a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a>
+              </div>
+          </div>
+    </footer>
+  </div>
+</div>
+</article>

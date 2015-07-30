@@ -1,0 +1,54 @@
+title = "Blog"
+url = "/blog"
+layout = "halmi"
+description = "Začať svoj pracovný deň rannou jogou, zdravými raňajkami a výbornou kávou, k tomu pracovné prestávky na slackline v parku, v mini-kine či s limonádou v tulivakoch, a to všetko v príjemnom prostredí štýlového coworkingu v centre mesta. 
+Tak čo, aj ty si to vieš predstaviť?"
+is_hidden = "0"
+meta_title = "HalmiCaffe :: Blog"
+meta_description = "Začať svoj pracovný deň rannou jogou, zdravými raňajkami a výbornou kávou, k tomu pracovné prestávky na slackline v parku, v mini-kine či s limonádou v tulivakoch, a to všetko v príjemnom prostredí štýlového coworkingu v centre mesta. 
+Tak čo, aj ty si to vieš predstaviť?"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = "99"
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category-page"
+postPage = "blog/blog-post"
+
+[searchForm]
+resultPage = "blog/search-results"
+
+[mailSignup]
+list = "5603fd16f5"
+==
+{% put head %}
+    <link rel="stylesheet" href="{{ 'assets/css_blog.css'|theme }}" />
+{% endput %}
+
+<div class="hero-holder">
+  <h1>Najlepší blog o káve</h1>
+  <hr/>
+  <p id="description">
+  {{ this.page.meta_description }}
+  </p>
+
+  {% component 'searchForm' %}
+</div>
+
+<div id="ho-content" class="clearfix blog-container">
+  <div style="margin: 0 auto; max-width: 500px">
+    {% component 'blogPosts' %}
+  </div>
+</div>
+
+<div class="signup-newsletter">
+  <strong class="subscribe-title">— Pridaj sa do nášho newslettera —</strong>
+  {% component 'mailSignup' %}
+</div>
+
+
+{% put foot %}
+    {% framework %}
+    {% framework extras %}
+{% endput %}

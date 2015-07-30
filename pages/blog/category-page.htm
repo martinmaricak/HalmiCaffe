@@ -1,0 +1,49 @@
+title = "Category Page"
+url = "/blog/kategoria/:slug"
+layout = "halmi"
+is_hidden = "0"
+meta_title = "HalmiCaffe :: Blog"
+
+[blogPosts categoryPage]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = "99"
+noPostsMessage = "Žiadne články sme nenašli. :("
+sortOrder = "published_at desc"
+categoryPage = "blog/category-page"
+postPage = "blog/blog-post"
+
+[mailSignup]
+==
+<?php
+function onEnd()
+{
+    if ($this->category)
+        $this->page->meta_title = 'HalmiCaffe :: Kategória ' . $this->category->name;
+}
+?>
+==
+{% put head %}
+    <link rel="stylesheet" href="{{ 'assets/css_blog.css'|theme }}" />
+{% endput %}
+
+{% if not category %}
+    <h1>Category not found</h1>
+{% else %}
+    <h1>{{ category.name }}</h1>
+
+    {% component 'blogPosts' %}
+{% endif %}
+
+{% component 'categoryPage' %}
+
+<div class="signup-newsletter">
+  <strong class="subscribe-title">— Pridaj sa do nášho newslettera —</strong>
+  {% component 'mailSignup' %}
+</div>
+
+
+{% put foot %}
+    {% framework %}
+    {% framework extras %}
+{% endput %}
